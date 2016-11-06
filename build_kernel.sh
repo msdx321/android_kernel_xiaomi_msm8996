@@ -9,7 +9,7 @@ BUILDING_DIR=$OUT_DIR/kernel_obj
 JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 DATE=`date +%m-%d-%H:%M`
 
-CROSS_COMPILER=$ROOT_DIR/toolchains/bin/aarch64-linux-gnu-
+CROSS_COMPILER=$ROOT_DIR/toolchains/bin/aarch64-linux-android-
 
 ANYKERNEL_DIR=$ROOT_DIR/anykernel2-prebuilt
 TEMP_DIR=$OUT_DIR/temp

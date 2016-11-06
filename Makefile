@@ -408,6 +408,12 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
 		   -Wno-discarded-array-qualifiers \
 		   -Wno-return-local-addr \
+		   -Wno-misleading-indentation \
+		   -Wno-duplicate-decl-specifier \
+		   -Wno-memset-elt-size \
+		   -Wno-bool-compare \
+		   -Wno-switch-unreachable \
+	           -Wno-error=switch-unreachable \
 		   -mcpu=cortex-a57.cortex-a53 -mtune=cortex-a57.cortex-a53 \
 		   -std=gnu89
 
